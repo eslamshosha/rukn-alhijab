@@ -755,6 +755,9 @@ html[dir="rtl"] .open-search {
   padding: 15px 12px;
   background-color: #fff;
 }
+.product-hover {
+  position: relative;
+}
 .product .product-name {
   display: block;
   color: var(--black-color);
@@ -1191,7 +1194,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   .top-header .img-logo img {
     max-width: 110px;
   }
-  body{
+  body {
     padding-top: 114.16px;
   }
 }
@@ -1207,9 +1210,6 @@ html[dir="rtl"] .footer-accordion.active:after {
   }
   .top-header .header-icons {
     width: unset;
-  }
-  .fixed-nav .header-icons .fixed-search {
-    display: none;
   }
   nav {
     border: none;
